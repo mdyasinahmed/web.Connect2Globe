@@ -161,10 +161,6 @@
         opacity: 1;
     }
 }
-nav h2 img{
-    height: 50px;
-    margin-right: 5px;
-}
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
@@ -446,4 +442,26 @@ nav h2 img{
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+/* Small devices (phones, less than 600px) */
+@media (max-width: 599px) {
+    nav h2 img{
+        height: 5vw;
+    }
+}
+
+/* Medium devices (tablets, 600px to 1023px) */
+@media (min-width: 600px) and (max-width: 1023px) {
+    nav h2 img{
+        height: 2vw;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    nav h2 img{
+        height: 2vw;
+    }
 }
