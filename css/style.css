@@ -161,7 +161,10 @@
         opacity: 1;
     }
 }
-
+nav h2 img{
+    height: 50px;
+    margin-right: 5px;
+}
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
