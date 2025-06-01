@@ -7,6 +7,9 @@
 .text-primary {
     color: var(--primary2) !important;
 }
+.soft_bg_colour {
+    background-color: var(--light) !important;
+}
 .btn-primary{
     background: var(--primary2) !important;
     border-color: var(--primary2) !important;
@@ -455,7 +458,7 @@
 /* Medium devices (tablets, 600px to 1023px) */
 @media (min-width: 600px) and (max-width: 1023px) {
     nav h2 img{
-        height: 2vw;
+        height: 5vw;
     }
 }
 
