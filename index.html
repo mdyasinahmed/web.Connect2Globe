@@ -79,7 +79,7 @@
     <main>
         <section class="hero_section">
             <div class="container-fluid p-0 mb-5">
-                <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel header-carousel position-relative" id="hero-carousel">
                     <div class="owl-carousel-item position-relative">
                         <img class="img-fluid" src="img/carousel-1.jpg" alt="">
                         <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
@@ -87,7 +87,7 @@
                             <div class="container">
                                 <div class="row justify-content-start">
                                     <div class="col-sm-10 col-lg-8">
-                                        <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best
+                                        <h5 class="soft_text_color text-uppercase mb-3 animated slideInDown">Best
                                             Consulting Agency
                                         </h5>
                                         <h1 class="display-3 text-white animated slideInDown">Shape Your Future with
@@ -112,7 +112,7 @@
                             <div class="container">
                                 <div class="row justify-content-start">
                                     <div class="col-sm-10 col-lg-8">
-                                        <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best
+                                        <h5 class="soft_text_color text-uppercase mb-3 animated slideInDown">Best
                                             Consulting Agency
                                         </h5>
                                         <h1 class="display-3 text-white animated slideInDown">Get Best Consulting
@@ -265,11 +265,11 @@
                                 <div class="text-center p-4 pb-0">
                                     <h3 class="mb-0">Undergraduate</h3>
                                     <div class="mb-3">
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
                                         <small>(40+)</small>
                                     </div>
                                     <h5 class="mb-4">Bachelor Program Support</h5>
@@ -300,11 +300,11 @@
                                 <div class="text-center p-4 pb-0">
                                     <h3 class="mb-0">Post Graduate</h3>
                                     <div class="mb-3">
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
                                         <small>(55+)</small>
                                     </div>
                                     <h5 class="mb-4">Master's Program Support</h5>
@@ -335,11 +335,11 @@
                                 <div class="text-center p-4 pb-0">
                                     <h3 class="mb-0">Dependent Study</h3>
                                     <div class="mb-3">
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
+                                        <small class="fa fa-star golden_star"></small>
                                         <small>(18+)</small>
                                     </div>
                                     <h5 class="mb-4">Spouse & Family Visa Support</h5>
@@ -530,7 +530,7 @@
 
     <!-- Footer Start -->
     <footer>
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-primary text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
@@ -624,29 +624,8 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
+    <!-- Javascript -->
     <script src="js/main.js"></script>
-    <!-- Initialize Owl Carousel -->
-    <script>
-        $(document).ready(function () {
-            $(".partner-universities-carousel").owlCarousel({
-                loop: true,
-                margin: 30,
-                nav: true,
-                dots: true,
-                autoplay: true,           // Enable automatic sliding
-                autoplayTimeout: 3000,    // Time between slides (3 seconds)
-                autoplayHoverPause: true, // Pause autoplay when mouse hovers over carousel
-                navText: ["", ""],
-                responsive: {
-                    0: { items: 2 },
-                    768: { items: 2 },
-                    992: { items: 4 }
-                }
-            });
-        });
-    </script>
-
 </body>
 
 </html>

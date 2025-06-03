@@ -1,19 +1,32 @@
 :root {
-    --primary: #233890;
-    --light: #f0f0ff;
+    --primary: #0D75BE;
+    --light: #ecf6fe;
     --dark: #181d38;
-    --primary2: #0ab2fa;
+    --primary2: #0D75BE;
+    --primary3: #0062a8;
+    --soft: #52b0f4;
 }
+
 .text-primary {
     color: var(--primary2) !important;
+}
+.golden_star{
+    color: #FDCC0D !important;
+}
+.soft_text_color{
+    color: var(--soft) !important;
 }
 .soft_bg_colour {
     background-color: var(--light) !important;
 }
-.btn-primary{
+.bg-primary {
+    background: var(--primary3) !important;
+}
+.btn-primary {
     background: var(--primary2) !important;
     border-color: var(--primary2) !important;
 }
+
 .fw-medium {
     font-weight: 600 !important;
 }
@@ -88,9 +101,11 @@
 .section_margin {
     padding: 15px 0;
 }
+
 .colorfull_bg {
     background-color: rgb(250, 250, 255);
 }
+
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
@@ -116,7 +131,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -167,17 +182,25 @@
 
 /*** Header carousel ***/
 @media (max-width: 768px) {
+    #hero-carousel .owl-nav {
+        display: none !important;
+    }
+
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
+}
+
+#hero-carousel .owl-nav {
+    display: none !important;
 }
 
 .header-carousel .owl-nav {
@@ -221,7 +244,7 @@
     background: rgba(15, 23, 43, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -332,6 +355,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -339,6 +363,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -450,21 +475,21 @@
 
 /* Small devices (phones, less than 600px) */
 @media (max-width: 599px) {
-    nav h2 img{
+    nav h2 img {
         height: 5vw;
     }
 }
 
 /* Medium devices (tablets, 600px to 1023px) */
 @media (min-width: 600px) and (max-width: 1023px) {
-    nav h2 img{
+    nav h2 img {
         height: 5vw;
     }
 }
 
 /* Large devices (desktops, 1024px and up) */
 @media (min-width: 1024px) {
-    nav h2 img{
+    nav h2 img {
         height: 2vw;
     }
 }
